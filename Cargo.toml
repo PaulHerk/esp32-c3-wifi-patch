@@ -1,11 +1,11 @@
 [package]
 edition = "2021"
-name = "testing-for-boilerplate"
+name = "esp32-c3-wifi-patch"
 rust-version = "1.86"
 version = "0.1.0"
 
 [[bin]]
-name = "testing-for-boilerplate"
+name = "esp32-c3-wifi-patch"
 path = "./src/bin/main.rs"
 
 [dependencies]

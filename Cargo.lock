@@ -797,6 +797,30 @@ dependencies = [
 ]
 
 [[package]]
+name = "esp32-c3-wifi-patch"
+version = "0.1.0"
+dependencies = [
+ "cc",
+ "critical-section",
+ "embassy-executor",
+ "embassy-net",
+ "embassy-time",
+ "embedded-io",
+ "embedded-io-async",
+ "esp-alloc",
+ "esp-backtrace",
+ "esp-bootloader-esp-idf",
+ "esp-hal",
+ "esp-hal-embassy",
+ "esp-println",
+ "esp-wifi",
+ "ieee80211",
+ "log",
+ "smoltcp",
+ "static_cell",
+]
+
+[[package]]
 name = "esp32c2"
 version = "0.27.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1577,30 +1601,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "06794f8f6c5c898b3275aebefa6b8a1cb24cd2c6c79397ab15774837a0bc5755"
 dependencies = [
  "winapi-util",
-]
-
-[[package]]
-name = "testing-for-boilerplate"
-version = "0.1.0"
-dependencies = [
- "cc",
- "critical-section",
- "embassy-executor",
- "embassy-net",
- "embassy-time",
- "embedded-io",
- "embedded-io-async",
- "esp-alloc",
- "esp-backtrace",
- "esp-bootloader-esp-idf",
- "esp-hal",
- "esp-hal-embassy",
- "esp-println",
- "esp-wifi",
- "ieee80211",
- "log",
- "smoltcp",
- "static_cell",
 ]
 
 [[package]]
