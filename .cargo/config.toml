@@ -1,5 +1,5 @@
 [target.riscv32imc-unknown-none-elf]
-runner = "./wifi_patch_and_run2.fish"
+runner = "./wifi_patch_and_run.fish"
 # runner = "espflash flash --monitor --chip esp32c3"
 
 [env]
